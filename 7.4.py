@@ -1,0 +1,23 @@
+friends = []
+friends.append('umid')
+friends.append('anvar')
+friends.append('abror')
+friends.append('rustam')
+friends.append('shoxzod')
+friends.append('ilxom')
+print(friends)
+friends.remove('anvar')
+print(friends)
+friends.insert(-1,'asl')
+print(friends)
+friends.insert(0,'shox')
+print(friends)
+friends.insert(4,'shix')
+print(friends)
+mehmonlar = []
+a=friends[2]
+b=friends.pop(4)
+mehmonlar.append(a)
+print(friends)
+mehmonlar.append(friends[5])
+print(mehmonlar)
